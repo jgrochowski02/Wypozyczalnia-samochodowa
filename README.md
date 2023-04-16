@@ -1,4 +1,4 @@
-# Car Rental
+# Wypożyczalnia samochodowa
 Projekt prostej wypożyczalni samochodowej napisanej w C++ z użyciem wxWidgets.
 Został zrobiony na trzecim semestrze na studiach.
 Jego zadaniem jest obsługa wypożyczalni samochodowej od strony pracownika.
