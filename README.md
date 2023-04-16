@@ -11,4 +11,5 @@ Identycznie jest z samochodami. Pracownik musi wypełnić takie dane jak marka, 
 Program daje możliwość poznania kosztów wynajmu, historii wypożyczeń oraz możliwość wypożyczenia samochodu przez daną osobę za pomocą podania numerów ID klienta i auta.
 
 
+
 Projekt nie jest wykonany w 100% przeze mnie.
