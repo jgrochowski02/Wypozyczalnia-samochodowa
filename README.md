@@ -1,2 +1,3 @@
 # Car rental
- Project was made during the third semester at university
+ Projekt prostej wypożyczalni samochodowej napisanej w C++ z użyciem wxWidgets.
+ Został zrobiony podczas trzeciego semestru na studiach.
