@@ -1,0 +1,8 @@
+
+7 2000 M8 BMW TKI123WE Czerwony 450 Srednia
+8 50 Espera Deawoo TJE90NWO Czerwony 50 Niska
+9 1800 S7 AUDI TKI5VF5 Zielony 441 Srednia
+10 5000 Huracan Lamborghini EL91KL1 Szary 720 Wysoka
+11 2500 Ghibli Maserati WI55WEK Czarny 345 Srednia
+12 3500 RSQ8 Audi TK432KK Granatowy 591 Wysoka
+13 4800 570GT McLaren TKI997AM Fioletowy 570 Wysoka
