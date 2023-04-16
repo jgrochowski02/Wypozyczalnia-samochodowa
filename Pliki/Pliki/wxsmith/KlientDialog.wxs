@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="KlientDialog">
+		<size>947,443</size>
+		<enabled>0</enabled>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="ImieRamka" member="yes">
+			<maxlength>30</maxlength>
+			<pos>144,80</pos>
+			<size>224,48</size>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnTextCtrl1Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="NazwiskoRamka" member="yes">
+			<maxlength>40</maxlength>
+			<pos>632,80</pos>
+			<size>224,48</size>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnTextCtrl2Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxSpinCtrl" name="ID_SPINCTRL1" variable="WiekRamka" member="yes">
+			<value>18</value>
+			<min>18</min>
+			<max>70</max>
+			<pos>144,160</pos>
+			<size>98,48</size>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<maxsize>0,0</maxsize>
+			<handler function="OnSpinCtrl1Change" entry="EVT_SPINCTRL" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="Imie" member="yes">
+			<label>Imie</label>
+			<pos>24,80</pos>
+			<size>72,32</size>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="Nazwisko" member="yes">
+			<label>Nazwisko</label>
+			<pos>448,80</pos>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT3" variable="Wiek" member="yes">
+			<label>Wiek</label>
+			<pos>24,160</pos>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT4" variable="PESEL" member="yes">
+			<label>PESEL</label>
+			<pos>24,240</pos>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="PESELRamka" member="yes">
+			<maxlength>12</maxlength>
+			<pos>144,232</pos>
+			<size>224,48</size>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnTextCtrl3Text" entry="EVT_TEXT" />
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT5" variable="NrTel" member="yes">
+			<label>NrTel</label>
+			<pos>448,160</pos>
+			<font>
+				<size>18</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="NrTelRamka" member="yes">
+			<maxlength>15</maxlength>
+			<pos>632,160</pos>
+			<size>224,48</size>
+			<font>
+				<size>20</size>
+				<style>normal</style>
+				<weight>normal</weight>
+				<underlined>0</underlined>
+				<family>swiss</family>
+				<face>Arial</face>
+			</font>
+		</object>
+		<object class="wxButton" name="wxID_OKk" variable="OK" member="yes">
+			<label>OK</label>
+			<pos>296,376</pos>
+			<size>120,48</size>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnOKClick" entry="EVT_BUTTON" />
+		</object>
+		<object class="wxButton" name="wxID_ANULUJk" variable="ANULUJ" member="yes">
+			<label>ANULUJ</label>
+			<pos>464,376</pos>
+			<size>120,48</size>
+			<font>
+				<size>16</size>
+				<style>normal</style>
+				<weight>bold</weight>
+				<underlined>0</underlined>
+				<family>default</family>
+				<face>Arial</face>
+			</font>
+			<handler function="OnANULUJClick" entry="EVT_BUTTON" />
+		</object>
+	</object>
+</wxsmith>
